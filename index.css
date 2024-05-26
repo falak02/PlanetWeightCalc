@@ -1,0 +1,81 @@
+
+
+@media only screen and (max-width: 600px)
+body{
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+h1{
+    color: azure;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: azure;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+button {
+    appearance: none;
+    background-color: #6ec1f8;
+    border: none;
+   
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0;
+    min-height: 0.3em;
+    min-width: 0;
+    line-height: 0.3;
+    outline: none;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+   
+   button:disabled {
+    pointer-events: none;
+   }
+   
+   button:hover {
+    color: #fff;
+    background-color: #16098a;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   button:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
+
+#result {
+    margin-top: 20px;
+    font-size: 22px;
+    color: azure;
+}
